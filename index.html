@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Bankaccount</title>
+    <meta name="description" content="Open a Bankaccount at Money, the digital bank">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="apple-touch-icon" href="img/icon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Site or application content -->
+    <header class="main-head">
+        <nav>
+            <h1 id="logo">Money</h1>
+            <ul>
+                <!-- class ACCOUNT: bankaccount operations-->
+                <button type="button" value="modifyAccount" onclick="modifyAccount()">Modify</button>
+                <button type="button" value="showAccount" onclick="showAccount()">Show</button>
+                <button type="button" value="deleteAccount" onclick="eliminateAccount()">Delete</button>
+                <li><button type="button" value="deposit" onclick="deposit()">deposit</button></li>
+                <li><button type="button" value="withdraw" onclick="withdraw()">withdraw</button> </li>
+                <li><button type="button" value="transactions" onclick="transactions()">transaccions</button></li>
+                <li><button type="button" value="account" onclick="account()">account</button></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero" class="background-image">
+            <button type="button " value="Create " onclick="createAccount()" />Open BankAccount</button>
+        </section>
+        <script src='bankaccount.js' type='text/javascript'></script>
+        <script src='operations.js' type='text/javascript'></script>
+    </main>
+</body>
+
+</html>
